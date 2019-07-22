@@ -1,6 +1,7 @@
 # Summary
 
 * [重学前端-前言](README.md)
+* [第零章 Web简史](Chapter0/README.md)
 * [第一章 HTML](Chapter1/README.md)
     * [1.1：HTML产生的原因](Chapter1/HTML产生的原因.md)
     * [1.2：HTML5要解决的问题](Chapter1/HTML5要解决的问题.md)
