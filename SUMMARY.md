@@ -13,6 +13,8 @@
     * [2.2：Less](Chapter2/Less.md)
     * [2.3：Sass](Chapter2/Sass.md)
     * [2.4：Stylus](Chapter2/Stylus.md)
+    * [【专题】多种方式实现居中](Chapter2/【专题】多种方式实现居中.md)
+    * [【专题】BFC背后的布局问题](Chapter2/【专题】BFC背后的布局问题.md)
     * [【实践】reset.css](Chapter2/【实践】reset.css.md)
 * [第三章 Javascript](Chapter3/README.md)
     * [3.1：基础语法](Chapter3/基础语法.md)
