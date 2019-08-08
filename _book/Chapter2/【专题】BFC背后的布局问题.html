@@ -1,0 +1,1211 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>【专题】BFC背后的布局问题 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="【实践】reset.css.html" />
+    
+    
+    <link rel="prev" href="【专题】多种方式实现居中.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    重学前端-前言
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../Chapter0/">
+            
+                <a href="../Chapter0/">
+            
+                    
+                    第零章 Web简史
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../Chapter1/">
+            
+                <a href="../Chapter1/">
+            
+                    
+                    第一章 HTML
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../Chapter1/HTML通识.html">
+            
+                <a href="../Chapter1/HTML通识.html">
+            
+                    
+                    1.1：HTML通识
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../Chapter1/HTML标签语义化.html">
+            
+                <a href="../Chapter1/HTML标签语义化.html">
+            
+                    
+                    1.2：HTML标签语义化
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="../Chapter1/[实践]语义化静态页面.html">
+            
+                <a href="../Chapter1/[实践]语义化静态页面.html">
+            
+                    
+                    【实践】语义化静态页面
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    第二章 CSS
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="CSS样式分类.html">
+            
+                <a href="CSS样式分类.html">
+            
+                    
+                    2.1：CSS样式分类
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="Less.html">
+            
+                <a href="Less.html">
+            
+                    
+                    2.2：Less
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="Sass.html">
+            
+                <a href="Sass.html">
+            
+                    
+                    2.3：Sass
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="Stylus.html">
+            
+                <a href="Stylus.html">
+            
+                    
+                    2.4：Stylus
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5" data-path="【专题】多种方式实现居中.html">
+            
+                <a href="【专题】多种方式实现居中.html">
+            
+                    
+                    【专题】多种方式实现居中
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.4.6" data-path="【专题】BFC背后的布局问题.html">
+            
+                <a href="【专题】BFC背后的布局问题.html">
+            
+                    
+                    【专题】BFC背后的布局问题
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.7" data-path="【实践】reset.css.html">
+            
+                <a href="【实践】reset.css.html">
+            
+                    
+                    【实践】reset.css
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../Chapter3/">
+            
+                <a href="../Chapter3/">
+            
+                    
+                    第三章 Javascript
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="../Chapter3/基础语法.html">
+            
+                <a href="../Chapter3/基础语法.html">
+            
+                    
+                    3.1：基础语法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="../Chapter3/ES6.html">
+            
+                <a href="../Chapter3/ES6.html">
+            
+                    
+                    3.2：ES6
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3" data-path="../Chapter3/TypeScript.html">
+            
+                <a href="../Chapter3/TypeScript.html">
+            
+                    
+                    3.3：TypeScript
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../Chapter4/">
+            
+                <a href="../Chapter4/">
+            
+                    
+                    第四章 jQuery
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="../Chapter4/功能特性.html">
+            
+                <a href="../Chapter4/功能特性.html">
+            
+                    
+                    4.1：功能特性
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2" data-path="../Chapter4/设计思路和源码分析.html">
+            
+                <a href="../Chapter4/设计思路和源码分析.html">
+            
+                    
+                    4.2：设计思路和源码分析
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3" data-path="../Chapter4/【实践】个人网站.html">
+            
+                <a href="../Chapter4/【实践】个人网站.html">
+            
+                    
+                    【实践】个人网站
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.4" data-path="../Chapter4/【实践】基础版jQuery.html">
+            
+                <a href="../Chapter4/【实践】基础版jQuery.html">
+            
+                    
+                    【实践】基础版jQuery
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="../Chapter5/">
+            
+                <a href="../Chapter5/">
+            
+                    
+                    第五章 MVVM
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.1" data-path="../Chapter5/Vue.js.html">
+            
+                <a href="../Chapter5/Vue.js.html">
+            
+                    
+                    5.1：Vue.js
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.2" data-path="../Chapter5/React.js.html">
+            
+                <a href="../Chapter5/React.js.html">
+            
+                    
+                    5.2：React.js
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.3" data-path="../Chapter5/Angular.js.html">
+            
+                <a href="../Chapter5/Angular.js.html">
+            
+                    
+                    5.3：Angular.js
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.4" data-path="../Chapter5/框架对比.html">
+            
+                <a href="../Chapter5/框架对比.html">
+            
+                    
+                    5.4：框架对比
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.5" data-path="../Chapter5/【实践】TodoList.html">
+            
+                <a href="../Chapter5/【实践】TodoList.html">
+            
+                    
+                    【实践】TodoList
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="../Chapter6/">
+            
+                <a href="../Chapter6/">
+            
+                    
+                    第六章 打包工具
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.8.1" data-path="../Chapter6/Gulp.html">
+            
+                <a href="../Chapter6/Gulp.html">
+            
+                    
+                    6.1：Gulp
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.2" data-path="../Chapter6/Grunt.html">
+            
+                <a href="../Chapter6/Grunt.html">
+            
+                    
+                    6.2：Grunt
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.3" data-path="../Chapter6/Webpack.html">
+            
+                <a href="../Chapter6/Webpack.html">
+            
+                    
+                    6.3：Webpack
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.4" data-path="../Chapter6/Browserify.html">
+            
+                <a href="../Chapter6/Browserify.html">
+            
+                    
+                    6.4：Browserify
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="../Chapter7/">
+            
+                <a href="../Chapter7/">
+            
+                    
+                    第七章 UI库/框架
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.9.1" data-path="../Chapter7/PC端.html">
+            
+                <a href="../Chapter7/PC端.html">
+            
+                    
+                    7.1：PC端
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.2" data-path="../Chapter7/移动端.html">
+            
+                <a href="../Chapter7/移动端.html">
+            
+                    
+                    7.2：移动端
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.3" data-path="../Chapter7/可视化.html">
+            
+                <a href="../Chapter7/可视化.html">
+            
+                    
+                    7.3：可视化
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.4" data-path="../Chapter7/【实践】简易版VUI（PC端）.html">
+            
+                <a href="../Chapter7/【实践】简易版VUI（PC端）.html">
+            
+                    
+                    【实践】简易版VUI（PC端）
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.5" data-path="../Chapter7/【实践】简易版VUI（移动端）.html">
+            
+                <a href="../Chapter7/【实践】简易版VUI（移动端）.html">
+            
+                    
+                    【实践】简易版VUI（移动端）
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="../Chapter8/">
+            
+                <a href="../Chapter8/">
+            
+                    
+                    第八章 Git
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.10.1" data-path="../Chapter8/版本控制简介.html">
+            
+                <a href="../Chapter8/版本控制简介.html">
+            
+                    
+                    8.1：版本控制简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.2" data-path="../Chapter8/Git常用命令.html">
+            
+                <a href="../Chapter8/Git常用命令.html">
+            
+                    
+                    8.2：Git常用命令
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.3" data-path="../Chapter8/【【实践】Git-Learn.html">
+            
+                <a href="../Chapter8/【【实践】Git-Learn.html">
+            
+                    
+                    【实践】Git-Learn
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11" data-path="../Chapter9/">
+            
+                <a href="../Chapter9/">
+            
+                    
+                    第九章 代码检查
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12" data-path="../Chapter10/">
+            
+                <a href="../Chapter10/">
+            
+                    
+                    第十章 单元测试
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13" data-path="../Chapter11/">
+            
+                <a href="../Chapter11/">
+            
+                    
+                    第十一章 后端技术
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.13.1" data-path="../Chapter11/开发语言&框架.html">
+            
+                <a href="../Chapter11/开发语言&框架.html">
+            
+                    
+                    11.1：开发语言/框架
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13.2" data-path="../Chapter11/存储&数据库.html">
+            
+                <a href="../Chapter11/存储&数据库.html">
+            
+                    
+                    11.2：存储/数据库
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13.3" data-path="../Chapter11/【实践】爬虫网站（爬取NBA数据）.html">
+            
+                <a href="../Chapter11/【实践】爬虫网站（爬取NBA数据）.html">
+            
+                    
+                    【实践】爬虫网站（爬取NBA数据）
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.14" data-path="../Chapter12/">
+            
+                <a href="../Chapter12/">
+            
+                    
+                    第十二章 游戏开发
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.14.1" data-path="../Chapter12/游戏前端开发语言&框架.html">
+            
+                <a href="../Chapter12/游戏前端开发语言&框架.html">
+            
+                    
+                    12.1：游戏前端开发语言/框架
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.14.2" data-path="../Chapter12/后端开发语言&框架.html">
+            
+                <a href="../Chapter12/后端开发语言&框架.html">
+            
+                    
+                    12.2：后端开发语言/框架
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.14.3" data-path="../Chapter12/俄罗斯方块.html">
+            
+                <a href="../Chapter12/俄罗斯方块.html">
+            
+                    
+                    【实践】俄罗斯方块
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.15" data-path="../Chapter13/">
+            
+                <a href="../Chapter13/">
+            
+                    
+                    第十三章 数据结构与算法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.16" data-path="../Chapter14/">
+            
+                <a href="../Chapter14/">
+            
+                    
+                    第十四章 设计模式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.17" data-path="../Chapter15/">
+            
+                <a href="../Chapter15/">
+            
+                    
+                    第十五章 未来行业趋势
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >【专题】BFC背后的布局问题</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="&#x3010;&#x4E13;&#x9898;&#x3011;bfc&#x80CC;&#x540E;&#x7684;&#x5E03;&#x5C40;&#x95EE;&#x9898;">&#x3010;&#x4E13;&#x9898;&#x3011;BFC&#x80CC;&#x540E;&#x7684;&#x5E03;&#x5C40;&#x95EE;&#x9898;</h1>
+<h2 id="&#x8C08;&#x8BBA;bfc&#x4E4B;&#x524D;&#x4F60;&#x9700;&#x8981;&#x77E5;&#x9053;&#x7684;&#x4E8B;&#x60C5;">&#x8C08;&#x8BBA;BFC&#x4E4B;&#x524D;&#x4F60;&#x9700;&#x8981;&#x77E5;&#x9053;&#x7684;&#x4E8B;&#x60C5;</h2>
+<h3 id="&#x6D4F;&#x89C8;&#x5668;&#x6E32;&#x67D3;&#x5E03;&#x5C40;&#x673A;&#x5236;">&#x6D4F;&#x89C8;&#x5668;&#x6E32;&#x67D3;/&#x5E03;&#x5C40;&#x673A;&#x5236;</h3>
+<p>&#x6211;&#x4EEC;&#x4E4B;&#x524D;&#x63D0;&#x5230;&#x8FC7;Web&#x7684;&#x5386;&#x53F2;&#xFF0C;&#x6700;&#x521D;&#x5B83;&#x7684;&#x51FA;&#x73B0;&#x662F;&#x4E3A;&#x4E86;&#x89E3;&#x51B3;&#x4FE1;&#x606F;&#x540C;&#x6B65;&#x548C;&#x4FE1;&#x606F;&#x5171;&#x4EAB;&#x7684;&#x95EE;&#x9898;&#x3002;&#x4E0D;&#x8FC7;&#x968F;&#x7740;web&#x7684;&#x53D1;&#x5C55;&#xFF0C;&#x5927;&#x5BB6;&#x5BF9;&#x5B83;&#x6709;&#x4E86;&#x66F4;&#x5927;&#x7684;&#x671F;&#x5F85;&#x3002;</p>
+<p>&#x8BD5;&#x60F3;&#x4E00;&#x4E0B;&#xFF0C;&#x5982;&#x679C;&#x4F60;&#x662F;&#x521D;&#x4EE3;&#x6D4F;&#x89C8;&#x5668;&#x7684;&#x8BBE;&#x8BA1;&#x8005;&#xFF0C;&#x73B0;&#x5728;&#x4F60;&#x60F3;&#x8981;&#x628A;&#x6211;&#x4EEC;&#x5728;&#x62A5;&#x520A;&#x3001;&#x6742;&#x5FD7;&#x4E0A;&#x770B;&#x5230;&#x5185;&#x5BB9;&#x642C;&#x5230;&#x7F51;&#x9875;&#x4E0A;&#xFF0C;&#x4F60;&#x4F1A;&#x600E;&#x4E48;&#x505A;&#xFF1F;</p>
+<p><img src="../Users/higgs/Desktop/workplace/project-side/Front-End-Review-Book/images/G20&#x4E2D;&#x7F8E;&#x8D38;&#x6613;&#x8C08;&#x5224;.png" alt="image-20190805105913547"></p>
+<p>&#x9996;&#x5148;&#xFF0C;&#x4F60;&#x5C31;&#x4F1A;&#x9047;&#x5230;&#x4E00;&#x4E2A;&#x95EE;&#x9898;&#xFF1A;</p>
+<ul>
+<li>&#x5982;&#x4F55;&#x6E32;&#x67D3;&#x6587;&#x672C;&#xFF0C;&#x6BD4;&#x5982;&#x6211;&#x4EEC;&#x5728;&#x62A5;&#x520A;&#x4E0A;&#x770B;&#x5230;&#x6807;&#x9898;&#xFF1A;&#x201C;&#x4E2D;&#x7F8E;&#x8D38;&#x6613;&#x8C08;&#x5224;&#x91CD;&#x542F;&#x201D;&#x7684;&#x5927;&#x53F7;&#x6807;&#x9898;&#xFF0C;&#x4EE5;&#x53CA;&#x4E0B;&#x9762;&#x7684;&#x6807;&#x9898;</li>
+<li>&#x5982;&#x4F55;&#x6E32;&#x67D3;&#x56FE;&#x7247;&#xFF0C;&#x6BD4;&#x5982;&#x5934;&#x7248;&#x5934;&#x6761;&#x4E0A;G20&#x4E0A;&#x7279;&#x6717;&#x666E;&#x548C;&#x4E60;&#x8FD1;&#x5E73;&#x7684;&#x63E1;&#x624B;&#x7167;&#x7247;</li>
+</ul>
+<p>&#x6240;&#x4EE5;&#xFF0C;&#x4F60;&#x9700;&#x8981;&#x5EFA;&#x7ACB;&#x4E00;&#x79CD;&#x6E32;&#x67D3;&#x673A;&#x5236;&#x6765;&#x7ED8;&#x5236;&#x6587;&#x672C;&#xFF0C;&#x652F;&#x6301;&#x4E0D;&#x540C;&#x7684;&#x5B57;&#x53F7;&#x5927;&#x5C0F;&#x3001;&#x5B57;&#x4F53;&#x7C7B;&#x578B;&#x3001;&#x5B57;&#x53F7;&#x7684;&#x7C97;&#x7EC6;&#x7B49;&#xFF0C;&#x4E8E;&#x662F;&#x5C31;&#x6709;&#x4E86;&#x6211;&#x4EEC;&#x73B0;&#x5728;&#x7684;<code>&lt;h1&gt;</code>&#x548C;css&#x6587;&#x672C;&#x76F8;&#x5173;&#x7684;&#x5C5E;&#x6027;&#xFF1B;&#x540C;&#x6837;&#x7684;&#xFF0C;<code>&lt;img&gt;</code>&#x662F;&#x4E3A;&#x4E86;&#x7ED8;&#x5236;&#x56FE;&#x7247;&#x800C;&#x751F;&#x3002;</p>
+<p>&#x7136;&#x540E;&#x95EE;&#x9898;&#x6765;&#x4E86;&#xFF0C;&#x7ED8;&#x5236;&#x6587;&#x672C;&#x3001;&#x56FE;&#x7247;&#xFF0C;&#x4E0D;&#x662F;&#x968F;&#x4FBF;&#x4E71;&#x7ED8;&#x5BF9;&#x4E0D;&#x5BF9;&#x3002;&#x600E;&#x4E48;&#x7ED8;&#x5236;&#x5462;&#xFF1F;</p>
+<p>option1&#xFF1A;&#x4ECE;&#x4E0A;&#x5F80;&#x4E0B;&#x662F;&#x4E00;&#x4E2A;&#x9009;&#x62E9;&#xFF01;</p>
+<p>option2&#xFF1A;&#x4ECE;&#x4E0B;&#x5F80;&#x4E0A;&#x4E5F;&#x662F;&#x4E00;&#x4E2A;&#x9009;&#x62E9;&#xFF01;</p>
+<p>&#x4E0D;&#x8FC7;option1&#x66F4;&#x7B26;&#x5408;&#x6211;&#x4EEC;&#x7684;&#x6D4F;&#x89C8;&#x4E60;&#x60EF;&#xFF0C;&#x90A3;&#x5C31;&#x9009;&#x5B83;&#x5427;&#xFF0C;&#x53E6;&#x5916;&#x9001;&#x5B83;&#x4E00;&#x4E2A;&#x597D;&#x542C;&#x7684;&#x540D;&#x5B57;&#xFF1A;</p>
+<p><strong>&#x6587;&#x6863;&#x6D41;</strong>~</p>
+<p>&#x6709;&#x4E86;&#x6587;&#x6863;&#x6D41;&#xFF0C;&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x628A;&#x6587;&#x672C;&#x548C;&#x56FE;&#x7247;&#x6309;&#x7167;&#x6211;&#x4EEC;&#x60F3;&#x8981;&#x7684;&#x987A;&#x5229;&#x4F9D;&#x6B21;&#x4ECE;&#x4E0A;&#x5F80;&#x4E0B;&#x6446;&#x653E;&#xFF0C;&#x90A3;&#x4E48;&#x95EE;&#x9898;&#x6765;&#x4E86;&#xFF1A;&#x5982;&#x679C;&#x56FE;&#x7247;&#x548C;&#x6587;&#x672C;&#x60F3;&#x8981;&#x6392;&#x5728;&#x4E00;&#x884C;&#xFF0C;&#x6216;&#x8005;&#x5E0C;&#x671B;&#x50CF;&#x6709;&#x4E9B;&#x62A5;&#x520A;&#x6587;&#x7AE0;&#x4E00;&#x6837;&#x6587;&#x5B57;&#x73AF;&#x7ED5;&#x7740;&#x56FE;&#x7247;&#x5462;&#xFF1F;</p>
+<p><strong>&#x6D6E;&#x52A8;</strong>~</p>
+<p>&#x5230;&#x8FD9;&#x91CC;&#xFF0C;&#x57FA;&#x672C;&#x62A5;&#x520A;&#x7684;&#x6587;&#x7AE0;&#x5185;&#x5BB9;&#x5DF2;&#x7ECF;&#x53EF;&#x4EE5;&#x79FB;&#x690D;&#x5230;web&#x4E0A;&#x4E86;&#xFF01;&#xFF01;</p>
+<p>&#x4E0D;&#x8FC7;&#xFF0C;&#x79FB;&#x690D;&#x62A5;&#x520A;&#x5185;&#x5BB9;&#x4EC5;&#x4EC5;&#x53EA;&#x662F;web&#x7684;&#x4E00;&#x4E2A;&#x529F;&#x80FD;&#xFF0C;&#x5B83;&#x6709;&#x6BD4;&#x62A5;&#x520A;&#x66F4;&#x591A;&#x7684;&#x529F;&#x80FD;&#x9700;&#x6C42;&#x3002;&#x6BD4;&#x5982;&#x5E7F;&#x544A;&#xFF0C;&#x4E3A;&#x4E86;&#x8BA9;&#x5E7F;&#x544A;&#x53EF;&#x4EE5;&#x88AB;&#x653E;&#x7F6E;&#x5728;web&#x7684;&#x4EFB;&#x610F;&#x4F4D;&#x7F6E;&#xFF0C;&#x4E8E;&#x662F;&#x6709;&#x4E86;<strong>&#x7EDD;&#x5BF9;&#x5B9A;&#x4F4D;</strong>&#xFF1B;&#x800C;&#x6709;&#x4E9B;&#x5E7F;&#x544A;&#x6216;&#x8005;&#x975E;&#x5E38;&#x91CD;&#x8981;&#x7684;&#x4FE1;&#x606F;&#x8981;&#x6C42;&#x56FA;&#x5B9A;&#x5728;web&#x7684;&#x5E95;&#x90E8;&#x6216;&#x5934;&#x90E8;&#xFF0C;&#x4E8E;&#x662F;&#x8FD8;&#x9700;&#x8981;<strong>&#x56FA;&#x5B9A;&#x5B9A;&#x4F4D;</strong>&#xFF1B;&#x8FD8;&#x6709;<strong>&#x76F8;&#x5BF9;&#x5B9A;&#x4F4D;</strong>&#xFF0C;&#x4E5F;&#x6709;&#x5B83;&#x76F8;&#x5E94;&#x7684;&#x8FD0;&#x7528;&#x573A;&#x666F;&#x3002;</p>
+<p>&#x6709;&#x4E86;&#x6587;&#x6863;&#x6D41;&#x3001;&#x6D6E;&#x52A8;&#x3001;&#x5B9A;&#x4F4D;&#x8FD9;&#x4E09;&#x5927;&#x6740;&#x5668;&#xFF0C;&#x57FA;&#x672C;&#x7684;&#x7F51;&#x9875;&#x5E03;&#x5C40;&#x4E5F;&#x5C31;&#x90FD;&#x80FD;&#x5B9E;&#x73B0;&#x4E86;&#xFF01;&#x4E0B;&#x9762;&#x8BF4;&#x8BF4;&#x6E32;&#x67D3;&#x673A;&#x5236;&#xFF1A;</p>
+<h3 id="&#x673A;&#x5236;1&#xFF1A;&#x6587;&#x6863;&#x6D41;">&#x673A;&#x5236;1&#xFF1A;&#x6587;&#x6863;&#x6D41;</h3>
+<ul>
+<li>&#x5185;&#x8054;&#x5143;&#x7D20;&#xFF1A;&#x53C8;&#x53EB;&#x884C;&#x5185;&#x5143;&#x7D20;&#xFF0C;&#x591A;&#x4E2A;&#x5185;&#x8054;&#x5143;&#x7D20;&#x53EF;&#x4EE5;&#x5728;&#x4E00;&#x884C;&#x663E;&#x793A;&#xFF0C;&#x5982;<code>&lt;span&gt;</code> <code>&lt;img&gt;</code></li>
+<li>&#x5757;&#x7EA7;&#x5143;&#x7D20;&#xFF1A;&#x56DB;&#x56DB;&#x65B9;&#x65B9;&#x7684;&#x5757;&#xFF0C;&#x5728;&#x6587;&#x6863;&#x4E2D;&#x81EA;&#x5DF1;&#x5360;&#x4E00;&#x884C;&#xFF0C;&#x5982;<code>&lt;div&gt;</code></li>
+</ul>
+<p>&#x4E0B;&#x9762;&#x8FD9;&#x5F20;&#x56FE;&#x8BF4;&#x660E;&#x4E86;&#x4E00;&#x5207;&#xFF1A;</p>
+<p><img src="https://pic3.zhimg.com/80/v2-bcc2930dd73184475467637b4b4dcc66_hd.jpg" alt="img"></p>
+<h3 id="&#x673A;&#x5236;2&#xFF1A;&#x8131;&#x79BB;&#x6587;&#x6863;&#x6D41;">&#x673A;&#x5236;2&#xFF1A;&#x8131;&#x79BB;&#x6587;&#x6863;&#x6D41;</h3>
+<p>&#x56DE;&#x5230;&#x6587;&#x7AE0;&#x5F00;&#x5934;&#x7684;&#x4F8B;&#x5B50;&#x4E0A;&#x9762;&#xFF0C;&#x5C06;&#x6587;&#x6863;&#x6D41;&#x6BD4;&#x4F5C;&#x662F;&#x6CB3;&#x6D41;&#x7684;&#x8BDD;&#xFF0C;&#x6C34;&#x5C31;&#x76F8;&#x5F53;&#x4E8E;&#x6587;&#x6863;&#x6D41;&#x91CC;&#x9762;&#x7684;&#x5143;&#x7D20;&#x3002;&#x800C;&#x8131;&#x79BB;&#x6587;&#x6863;&#x6D41;&#x5C31;&#x76F8;&#x5F53;&#x4E8E;<strong>&#x8131;&#x79BB;&#x6C34;&#x8DD1;&#x5230;&#x6C34;&#x7684;&#x4E0A;&#x9762;&#x98D8;&#x7740;&#xFF0C;</strong>&#x5C31;&#x50CF;&#x6CB3;&#x6D41;&#x4E0A;&#x7684;&#x5C0F;&#x8239;&#x3002;</p>
+<p><img src="https://pic1.zhimg.com/80/v2-26399045d2ee44d3dd28dd9d37fe4848_hd.jpg" alt="img"></p>
+<ul>
+<li>position: absolute</li>
+<li>position: fixed</li>
+<li>position: relative</li>
+<li>float: left/right</li>
+</ul>
+<h2 id="bfc">BFC</h2>
+<h3 id="bfc&#x662F;&#x4EC0;&#x4E48;">BFC&#x662F;&#x4EC0;&#x4E48;</h3>
+<p>&#x7B80;&#x5355;&#x6765;&#x8BF4;&#xFF0C;BFC &#x5C31;&#x662F;&#xFF1A;</p>
+<p>BFC &#x662F; Block Formatting Context &#x7684;&#x7B80;&#x5199;&#xFF0C;&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x76F4;&#x63A5;&#x7FFB;&#x8BD1;&#x6210;&#x201C;&#x5757;&#x7EA7;&#x683C;&#x5F0F;&#x5316;&#x4E0A;&#x4E0B;&#x6587;&#x201D;&#x3002;&#x5B83;&#x4F1A;&#x521B;&#x5EFA;&#x4E00;&#x4E2A;&#x7279;&#x6B8A;&#x7684;&#x533A;&#x57DF;&#xFF0C;&#x5728;&#x8FD9;&#x4E2A;&#x533A;&#x57DF;&#x4E2D;&#xFF0C;&#x53EA;&#x6709; block box &#x53C2;&#x4E0E;&#x5E03;&#x5C40;&#x3002;&#x800C; BFC &#x7684;&#x4E00;&#x5957;&#x7279;&#x70B9;&#x548C;&#x89C4;&#x5219;&#x5C31;&#x89C4;&#x5B9A;&#x4E86;&#x5728;&#x8FD9;&#x4E2A;&#x7279;&#x6B8A;&#x7684;&#x533A;&#x57DF;&#x4E2D;&#x5982;&#x4F55;&#x8FDB;&#x884C;&#x5E03;&#x5C40;&#xFF0C;&#x5982;&#x4F55;&#x8FDB;&#x884C;&#x5B9A;&#x4F4D;&#xFF0C;&#x533A;&#x57DF;&#x5185;&#x5143;&#x7D20;&#x7684;&#x76F8;&#x4E92;&#x5173;&#x7CFB;&#x548C;&#x76F8;&#x4E92;&#x4F5C;&#x7528;&#x3002;&#x8FD9;&#x4E2A;&#x7279;&#x6B8A;&#x7684;&#x533A;&#x57DF;&#x4E0D;&#x53D7;&#x5916;&#x754C;&#x5F71;&#x54CD;&#x3002;</p>
+<p>&#x4E0A;&#x9762;&#x63D0;&#x5230;&#x4E86; block box &#x7684;&#x6982;&#x5FF5;&#xFF0C;block box &#x662F;&#x6307; display &#x5C5E;&#x6027;&#x4E3A; block&#x3001;list-item&#x3001;table &#x7684;&#x5143;&#x7D20;&#x3002;</p>
+<p>&#x987A;&#x4FBF;&#x63D2;&#x4E00;&#x4E2A;&#x95EE;&#x9898;&#xFF1A;&#x90A3;&#x4F60;&#x8FD8;&#x77E5;&#x9053;&#x5176;&#x4ED6;&#x54EA;&#x4E9B; box &#x7C7B;&#x578B;&#x5462;&#xFF1F;</p>
+<p>&#x76F8;&#x5E94;&#x5730;&#xFF0C;&#x6211;&#x4EEC;&#x6709; inline box&#xFF0C;&#x5B83;&#x662F;&#x6307; display &#x5C5E;&#x6027;&#x4E3A; inline&#x3001;inline-block&#x3001;inline-table &#x7684;&#x5143;&#x7D20;&#x3002;CSS3 &#x89C4;&#x8303;&#x4E2D;&#x53C8;&#x52A0;&#x5165;&#x4E86; run in box&#xFF0C;&#x8FD9;&#x91CC;&#x6211;&#x4EEC;&#x4E0D;&#x518D;&#x5C55;&#x5F00;&#x3002;</p>
+<h3 id="bfc&#x6709;&#x4EC0;&#x4E48;&#x7279;&#x6027;">BFC&#x6709;&#x4EC0;&#x4E48;&#x7279;&#x6027;</h3>
+<p>&#x6211;&#x4EEC;&#x4E0A;&#x9762;&#x8C08;&#x5230;&#x4E86; BFC &#x7684;&#x4E00;&#x5957;&#x89C4;&#x5219;&#xFF0C;&#x90A3;&#x4E48;&#x8FD9;&#x4E9B;&#x89C4;&#x5219;&#x90FD;&#x6709;&#x54EA;&#x4E9B;&#x5462;&#xFF1F;</p>
+<ul>
+<li>&#x5185;&#x90E8;&#x7684; box &#x5C06;&#x4F1A;&#x72EC;&#x5360;&#x5BBD;&#x5EA6;&#xFF0C;&#x4E14;&#x5728;&#x5782;&#x76F4;&#x65B9;&#x5411;&#xFF0C;&#x4E00;&#x4E2A;&#x63A5;&#x4E00;&#x4E2A;&#x6392;&#x5217;</li>
+<li>box &#x5782;&#x76F4;&#x65B9;&#x5411;&#x7684;&#x95F4;&#x8DDD;&#x7531; margin &#x5C5E;&#x6027;&#x51B3;&#x5B9A;&#xFF0C;&#x4F46;&#x662F;&#x540C;&#x4E00;&#x4E2A; BFC &#x7684;&#x4E24;&#x4E2A;&#x76F8;&#x90BB; box &#x7684; margin &#x4F1A;&#x51FA;&#x73B0;&#x8FB9;&#x8DDD;&#x6298;&#x53E0;&#x73B0;&#x8C61;</li>
+<li>&#x6BCF;&#x4E2A; box &#x6C34;&#x5E73;&#x65B9;&#x5411;&#x4E0A;&#x5DE6;&#x8FB9;&#x7F18;&#xFF0C;&#x4E0E; BFC &#x5DE6;&#x8FB9;&#x7F18;&#x76F8;&#x5BF9;&#x9F50;&#xFF0C;&#x5373;&#x4F7F;&#x5B58;&#x5728;&#x6D6E;&#x52A8;&#x4E5F;&#x662F;&#x5982;&#x6B64;</li>
+<li>BFC &#x533A;&#x57DF;&#x4E0D;&#x4F1A;&#x4E0E;&#x6D6E;&#x52A8;&#x5143;&#x7D20;&#x91CD;&#x53E0;&#xFF0C;&#x800C;&#x662F;&#x4F1A;&#x4F9D;&#x6B21;&#x6392;&#x5217;</li>
+<li>BFC &#x533A;&#x57DF;&#x5185;&#x662F;&#x4E00;&#x4E2A;&#x72EC;&#x7ACB;&#x7684;&#x6E32;&#x67D3;&#x5BB9;&#x5668;&#xFF0C;&#x5BB9;&#x5668;&#x5185;&#x5143;&#x7D20;&#x548C; BFC &#x533A;&#x57DF;&#x5916;&#x5143;&#x7D20;&#x4E0D;&#x4F1A;&#x5F62;&#x6210;&#x4EFB;&#x4F55;&#x5E72;&#x6270;</li>
+<li>&#x6D6E;&#x52A8;&#x5143;&#x7D20;&#x7684;&#x9AD8;&#x5EA6;&#x4E5F;&#x53C2;&#x4E0E;&#x5230; BFC &#x9AD8;&#x5EA6;&#x7684;&#x8BA1;&#x7B97;&#x5F53;&#x4E2D;</li>
+</ul>
+<p>&#x4ECE;&#x8FD9;&#x4E9B;&#x89C4;&#x5219;&#x4E2D;&#xFF0C;&#x6211;&#x4EEC;&#x81F3;&#x5C11;&#x80FD;&#x603B;&#x7ED3;&#x51FA;&#x4E00;&#x4E9B;&#x5173;&#x952E;&#x8981;&#x70B9;&#xFF0C;&#x6BD4;&#x5982;&#xFF1A;</p>
+<ul>
+<li>&#x8FB9;&#x8DDD;&#x6298;&#x53E0;</li>
+<li>&#x6E05;&#x9664;&#x6D6E;&#x52A8;</li>
+<li>&#x81EA;&#x9002;&#x5E94;&#x591A;&#x680F;&#x5E03;&#x5C40;</li>
+</ul>
+<p>&#x8FD9;&#x4E5F;&#x662F;&#x6211;&#x9009;&#x53D6; BFC &#x8FD9;&#x4E2A;&#x6982;&#x5FF5;&#x6765;&#x5256;&#x6790;&#x7684;&#x539F;&#x56E0;&#xFF0C;&#x7406;&#x89E3;&#x4E86; BFC&#xFF0C;&#x8FD9;&#x4E9B;&#x5E38;&#x89C1;&#x3001;&#x5E38;&#x8003;&#x77E5;&#x8BC6;&#x70B9;&#x6211;&#x4EEC;&#x90FD;&#x53EF;&#x4EE5;&#x878D;&#x4F1A;&#x8D2F;&#x901A;&#xFF0C;&#x5177;&#x4F53;&#x6765;&#x770B;&#x4E0B;&#x4E0B;&#x9762;&#x7684;&#x573A;&#x666F;&#x3002;</p>
+<h3 id="&#x5982;&#x4F55;&#x6784;&#x5EFA;bfc">&#x5982;&#x4F55;&#x6784;&#x5EFA;BFC</h3>
+<p>&#x90A3;&#x4E48;&#x4EC0;&#x4E48;&#x6837;&#x7684;&#x60C5;&#x51B5;&#x4F1A;&#x521B;&#x5EFA;&#x4E00;&#x4E2A; BFC &#x5462;&#xFF1F;MDN &#x603B;&#x7ED3;&#x5982;&#x4E0B;&#xFF1A;</p>
+<ul>
+<li>&#x6839;&#x5143;&#x7D20;&#x6216;&#x5176;&#x4ED6;&#x5305;&#x542B;&#x5B83;&#x7684;&#x5143;&#x7D20;</li>
+<li>&#x6D6E;&#x52A8;&#x5143;&#x7D20; (&#x5143;&#x7D20;&#x7684; float &#x4E0D;&#x662F; none)</li>
+<li>&#x7EDD;&#x5BF9;&#x5B9A;&#x4F4D;&#x5143;&#x7D20; (&#x5143;&#x7D20;&#x5177;&#x6709; position &#x4E3A; absolute &#x6216; fixed)</li>
+<li>&#x5185;&#x8054;&#x5757; (&#x5143;&#x7D20;&#x5177;&#x6709; display: inline-block)</li>
+<li>&#x8868;&#x683C;&#x5355;&#x5143;&#x683C; (&#x5143;&#x7D20;&#x5177;&#x6709; display: table-cell&#xFF0C;HTML &#x8868;&#x683C;&#x5355;&#x5143;&#x683C;&#x9ED8;&#x8BA4;&#x5C5E;&#x6027;)</li>
+<li>&#x8868;&#x683C;&#x6807;&#x9898; (&#x5143;&#x7D20;&#x5177;&#x6709; display: table-caption, HTML &#x8868;&#x683C;&#x6807;&#x9898;&#x9ED8;&#x8BA4;&#x5C5E;&#x6027;)</li>
+<li>&#x5177;&#x6709; overflow &#x4E14;&#x503C;&#x4E0D;&#x662F; visible &#x7684;&#x5757;&#x5143;&#x7D20;</li>
+<li>display: flow-root &#x7684;&#x5143;&#x7D20;</li>
+<li>column-span: all &#x7684;&#x5143;&#x7D20;</li>
+</ul>
+<h3 id="bfc&#x5B9E;&#x6218;&#x5E94;&#x7528;">BFC&#x5B9E;&#x6218;&#x5E94;&#x7528;</h3>
+<ul>
+<li>&#x4F8B;&#x9898;1</li>
+</ul>
+<p>&#x7ED9;&#x51FA;&#x5982;&#x4E0B;&#x4EE3;&#x7801;&#xFF1A;</p>
+<pre><code>&lt;style&gt;
+    body {
+        width: 600px;
+        position: relative;
+    }
+
+    .left {
+        width: 80px;
+        height: 150px;
+        float: left;
+        background: blue;
+    }
+
+    .right {
+        height: 200px;
+        background: red;
+    }
+&lt;/style&gt;
+
+&lt;body&gt;
+    &lt;div class=&quot;left&quot;&gt;&lt;/div&gt;
+    &lt;div class=&quot;right&quot;&gt;&lt;/div&gt;
+&lt;/body&gt;
+</code></pre><p>&#x6211;&#x4EEC;&#x5F97;&#x5230;&#x5E03;&#x5C40;&#x5982;&#x56FE;&#xFF1A;</p>
+<p><img src="https://images.gitbook.cn/04b9dab0-88e8-11e9-88f0-f1d5a1392b19" alt="enter image description here"></p>
+<p>&#x8BF7;&#x5728;&#x4E0D;&#x4FEE;&#x6539;&#x5DF2;&#x6709;&#x5185;&#x5BB9;&#x60C5;&#x51B5;&#x4E0B;&#xFF0C;&#x52A0;&#x5165;&#x6837;&#x5F0F;&#xFF0C;&#x5B9E;&#x73B0;&#x81EA;&#x9002;&#x5E94;&#xFF08;.left &#x5BBD;&#x5EA6;&#x56FA;&#x5B9A;&#xFF0C;.right &#x5360;&#x6EE1;&#x5269;&#x4E0B;&#x5BBD;&#x5EA6;&#xFF09;&#x4E24;&#x680F;&#x5E03;&#x5C40;&#x3002;</p>
+<p>&#x6211;&#x4EEC;&#x6765;&#x601D;&#x8003;&#xFF1A;&#x6839;&#x636E; BFC &#x5E03;&#x5C40;&#x89C4;&#x5219;&#xFF1A;&#x201C;&#x6BCF;&#x4E2A; box &#x6C34;&#x5E73;&#x65B9;&#x5411;&#x4E0A;&#x5DE6;&#x8FB9;&#x7F18;&#xFF0C;&#x4E0E; BFC &#x5DE6;&#x8FB9;&#x7F18;&#x76F8;&#x5BF9;&#x9F50;&#x3002;&#x5373;&#x4F7F;&#x5B58;&#x5728;&#x6D6E;&#x52A8;&#x4E5F;&#x662F;&#x5982;&#x6B64;&#x201D;&#xFF0C;&#x56E0;&#x6B64; .left &#x548C; .right &#x7684;&#x5DE6;&#x8FB9;&#x76F8;&#x63A5;&#x89E6;&#x3002;&#x51FA;&#x73B0;&#x5982;&#x6B64;&#x5E03;&#x5C40;&#x7ED3;&#x679C;&#x5E76;&#x4E0D;&#x610F;&#x5916;&#x3002;</p>
+<p>&#x540C;&#x65F6;&#xFF0C;&#x518D;&#x60F3;&#x60F3; BFC &#x5E03;&#x5C40;&#x89C4;&#x5219;&#xFF1A;&#x201C;BFC &#x533A;&#x57DF;&#x4E0D;&#x4F1A;&#x4E0E;&#x6D6E;&#x52A8;&#x5143;&#x7D20;&#x91CD;&#x53E0;&#xFF0C;&#x800C;&#x662F;&#x4F1A;&#x4F9D;&#x6B21;&#x6392;&#x5217;&#x201D;&#xFF0C;&#x56E0;&#x6B64;&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x4F7F; .right &#x5F62;&#x6210; BFC&#xFF0C;&#x6765;&#x5B9E;&#x73B0;&#x81EA;&#x9002;&#x5E94;&#x4E24;&#x680F;&#x5E03;&#x5C40;&#x3002;&#x5982;&#x4F55;&#x5F62;&#x6210; BFC &#x524D;&#x9762;&#x5DF2;&#x7ECF;&#x505A;&#x8FC7;&#x4ECB;&#x7ECD;&#x4E86;&#xFF0C;&#x4E8E;&#x662F;&#x6DFB;&#x52A0;&#xFF1A;</p>
+<pre><code>.right {
+    overflow: hidden;
+}
+</code></pre><p>&#x5C31;&#x53EF;&#x4EE5;&#x5F97;&#x5230;&#xFF1A;</p>
+<p><img src="https://images.gitbook.cn/a9bd6130-8915-11e9-b157-776f1929e232" alt="enter image description here"></p>
+<p>&#x5F53;&#x7136;&#xFF0C;&#x8FD9;&#x79CD;&#x5E03;&#x5C40;&#x53EF;&#x4EE5;&#x7528;&#x66F4;&#x5148;&#x8FDB;&#x7684; flex &#x6216;&#x8005; grid &#x624B;&#x6BB5;&#x89E3;&#x51B3;&#xFF0C;&#x4F46;&#x662F;&#x5BF9;&#x4E8E; BFC &#x8FD9;&#x4E9B; CSS &#x57FA;&#x7840;&#x77E5;&#x8BC6;&#xFF0C;&#x540C;&#x6837;&#x8981;&#x505A;&#x5230;&#x4E86;&#x7136;&#x4E8E;&#x80F8;&#x3002;</p>
+<ul>
+<li>&#x4F8B;&#x9898; 2</li>
+</ul>
+<p>&#x770B;&#x4EE3;&#x7801;&#xFF1A;</p>
+<pre><code>&lt;style&gt;
+    .root {
+        border: 5px solid blue;
+        width: 300px;
+    }
+
+    .child {
+        border: 5px solid red;
+        width:100px;
+        height: 100px;
+        float: left;
+    }
+&lt;/style&gt;
+&lt;body&gt;
+    &lt;div class=&quot;root&quot;&gt;
+        &lt;div class=&quot;child child1&quot;&gt;&lt;/div&gt;
+        &lt;div class=&quot;child child2&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/body&gt;
+</code></pre><p>&#x9996;&#x5148;&#x6765;&#x56DE;&#x7B54;&#x7B2C;&#x4E00;&#x4E2A;&#x95EE;&#xFF1A;<strong>.root &#x7684;&#x9AD8;&#x5EA6;&#x662F;&#x591A;&#x5C11;&#xFF1F;</strong></p>
+<p>&#x4E8B;&#x5B9E;&#x4E0A;&#xFF0C;&#x56E0;&#x4E3A; .child &#x4E3A;&#x6D6E;&#x52A8;&#x5143;&#x7D20;&#xFF0C;&#x56E0;&#x6B64;&#x9020;&#x6210;&#x4E86;&#x201C;&#x9AD8;&#x5EA6;&#x584C;&#x9677;&#x201D;&#x73B0;&#x8C61;&#xFF0C;.root &#x7684;&#x9AD8;&#x5EA6;&#x4E3A; 0&#x3002;</p>
+<p><img src="https://images.gitbook.cn/ca790c80-8915-11e9-8115-8f03dd50b734" alt="img"></p>
+<p>&#x90A3;&#x4E48;&#x5982;&#x4F55;&#x89E3;&#x51B3;&#x201C;&#x9AD8;&#x5EA6;&#x584C;&#x9677;&#x201D;&#x95EE;&#x9898;&#x5462;&#xFF1F;</p>
+<p>&#x60F3;&#x60F3; BFC &#x89C4;&#x5219;&#xFF1A;&#x201C;&#x6D6E;&#x52A8;&#x5143;&#x7D20;&#x7684;&#x9AD8;&#x5EA6;&#x4E5F;&#x53C2;&#x4E0E;&#x5230; BFC &#x9AD8;&#x5EA6;&#x7684;&#x8BA1;&#x7B97;&#x5F53;&#x4E2D;&#x201D;&#xFF0C;&#x56E0;&#x6B64;&#x4F7F; .root &#x5F62;&#x6210; BFC&#xFF0C;&#x5C31;&#x80FD;&#x89E3;&#x51B3;&#x95EE;&#x9898;&#xFF1A;</p>
+<pre><code>.root {
+    overflow: hidden;
+}
+</code></pre><p><img src="https://images.gitbook.cn/06df63e0-8916-11e9-8115-8f03dd50b734" alt="img"></p>
+<p>&#x6211;&#x4EEC;&#x770B;&#x6B64;&#x65F6;&#x9AD8;&#x5EA6;&#x5DF2;&#x7ECF;&#x88AB;&#x4F60;&#x6491;&#x5F00;&#x4E86;&#x3002;</p>
+<ul>
+<li>&#x4F8B;&#x9898; 3</li>
+</ul>
+<p>&#x4EE3;&#x7801;&#xFF1A;</p>
+<pre><code>&lt;style&gt;
+    p {
+        color: blue;
+        background: red;
+        width: 400px;
+        line-height: 100px;
+        text-align:center;
+        margin: 40px;
+    }
+&lt;/style&gt;
+&lt;body&gt;
+    &lt;p&gt;paragraph 1&lt;/p&gt;
+    &lt;p&gt;paragraph 2&lt;/p&gt;
+&lt;/body&gt;
+</code></pre><p>&#x9996;&#x5148;&#x56DE;&#x7B54;&#x95EE;&#x9898;&#xFF1A;<strong>&#x4E24;&#x6BB5;&#x4E4B;&#x95F4;&#x7684;&#x5782;&#x76F4;&#x8DDD;&#x79BB;&#x4E3A;&#x591A;&#x5C11;&#xFF1F;</strong> &#x60F3;&#x60F3; BFC &#x89C4;&#x5219;&#xFF1A;&#x201C;box &#x5782;&#x76F4;&#x65B9;&#x5411;&#x7684;&#x95F4;&#x8DDD;&#x7531; margin &#x5C5E;&#x6027;&#x51B3;&#x5B9A;&#xFF0C;&#x4F46;&#x662F;<strong>&#x540C;&#x4E00;&#x4E2A;</strong> BFC &#x7684;&#x4E24;&#x4E2A;&#x76F8;&#x90BB; box &#x7684; margin &#x4F1A;&#x51FA;&#x73B0;&#x8FB9;&#x8DDD;&#x6298;&#x53E0;&#x73B0;&#x8C61;&#x201D;&#x3002;&#x4E8B;&#x5B9E;&#x4E0A;&#xFF0C;&#x56E0;&#x4E3A;&#x8FB9;&#x8DDD;&#x6298;&#x53E0;&#x73B0;&#x8C61;&#xFF0C;&#x7B54;&#x6848;&#x4E3A; 40px&#x3002;</p>
+<p>&#x90A3;&#x4E48;&#x5982;&#x4F55;&#x89E3;&#x51B3;&#x8FD9;&#x4E2A;&#x95EE;&#x9898;&#x5462;&#xFF1F;</p>
+<p>&#x6700;&#x7B80;&#x5355;&#x5730;&#xFF0C;&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x5728; p &#x6807;&#x7B7E;&#x518D;&#x5305;&#x88F9;&#x4E00;&#x4E2A;&#x5143;&#x7D20;&#xFF0C;&#x5E76;&#x89E6;&#x53D1;&#x8BE5;&#x5143;&#x7D20;&#x5F62;&#x6210;&#x4E00;&#x4E2A;BFC&#x3002;&#x90A3;&#x4E48;&#x8FD9;&#x4E24;&#x4E2A; p &#x6807;&#x7B7E;&#xFF0C;&#x4E0D;&#x518D;&#x5C5E;&#x4E8E;&#x540C;&#x4E00;&#x4E2A; BFC&#xFF0C;&#x4ECE;&#x800C;&#x89E3;&#x51B3;&#x95EE;&#x9898;&#x3002;</p>
+<pre><code>&lt;style&gt;
+    p {
+        color: blue;
+        background: red;
+        width: 400px;
+        line-height: 100px;
+        text-align:center;
+        margin: 40px;
+    }
+    .wrapper {
+        overflow: hidden
+    }
+&lt;/style&gt;
+&lt;body&gt;
+    &lt;p&gt;paragraph 1&lt;/p&gt;
+    &lt;div class=&quot;wrapper&quot;&gt;
+        &lt;p&gt;paragraph 2&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/body&gt;
+</code></pre><p><img src="https://images.gitbook.cn/2f329240-8916-11e9-b157-776f1929e232" alt="img"></p>
+<p><strong>&#x603B;&#x7ED3;</strong>&#xFF1A;&#x6211;&#x4EEC;&#x901A;&#x8FC7;&#x5206;&#x6790; BFC &#x662F;&#x4EC0;&#x4E48;&#x3001;&#x5982;&#x4F55;&#x5F62;&#x6210;&#x3001;&#x5E03;&#x5C40;&#x89C4;&#x5219;&#xFF0C;&#x878D;&#x4F1A;&#x8D2F;&#x901A;&#x4E86; CSS &#x5F53;&#x4E2D;&#x5F88;&#x591A;&#x5173;&#x952E;&#x95EE;&#x9898;&#x3002;&#x4E5F;&#x8BB8;&#x4E0D;&#x5C11;&#x8BFB;&#x8005;&#x80FD;&#x591F;&#x89E3;&#x51B3;&#x201C;&#x8FB9;&#x8DDD;&#x6298;&#x53E0;&#x201D;&#x3001;&#x201C;&#x591A;&#x680F;&#x81EA;&#x9002;&#x5E94;&#x201D;&#x3001;&#x201C;&#x9AD8;&#x5EA6;&#x584C;&#x9677;&#x201D;&#x7B49;&#x95EE;&#x9898;&#xFF0C;&#x4F46;&#x662F;&#x5E76;&#x4E0D;&#x80FD;&#x8BF4;&#x51FA;&#x89E3;&#x51B3;&#x95EE;&#x9898;&#x7684;&#x539F;&#x7406;&#x3002;&#x901A;&#x8FC7;&#x8FD9;&#x4E00;&#x73AF;&#x8282;&#x7684;&#x5B66;&#x4E60;&#xFF0C;&#x6211;&#x4EEC;&#x5BF9; CSS &#x52A0;&#x6DF1;&#x4E86;&#x7406;&#x89E3;&#xFF0C;&#x6211;&#x66F4;&#x5E0C;&#x671B;&#x5730;&#x662F;&#x80FD;&#x591F;&#x542F;&#x53D1;&#x5927;&#x5BB6;&#x601D;&#x8003;&#xFF1A;&#x6211;&#x4EEC;&#x5230;&#x5E95;&#x5E94;&#x8BE5;&#x5982;&#x4F55;&#x5BF9;&#x5F85; CSS&#x3001;&#x5982;&#x4F55;&#x5B66;&#x4E60; CSS&#x3002;</p>
+<p><a href="https://zhuanlan.zhihu.com/p/31261020" target="_blank">&#x4E00;&#x7BC7;&#x6587;&#x7AE0;&#x4E86;&#x89E3;HTML&#x6587;&#x6863;&#x6D41;(normal flow)</a></p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="【专题】多种方式实现居中.html" class="navigation navigation-prev " aria-label="Previous page: 【专题】多种方式实现居中">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="【实践】reset.css.html" class="navigation navigation-next " aria-label="Next page: 【实践】reset.css">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"【专题】BFC背后的布局问题","level":"1.4.6","depth":2,"next":{"title":"【实践】reset.css","level":"1.4.7","depth":2,"path":"Chapter2/【实践】reset.css.md","ref":"Chapter2/【实践】reset.css.md","articles":[]},"previous":{"title":"【专题】多种方式实现居中","level":"1.4.5","depth":2,"path":"Chapter2/【专题】多种方式实现居中.md","ref":"Chapter2/【专题】多种方式实现居中.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"Chapter2/【专题】BFC背后的布局问题.md","mtime":"2019-08-05T07:13:02.667Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-08-08T06:57:35.116Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
