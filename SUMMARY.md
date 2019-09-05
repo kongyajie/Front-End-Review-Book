@@ -14,6 +14,7 @@
     * [3.1：基础语法](Chapter3/基础语法.md)
     * [3.2：ES6](Chapter3/ES6.md)
     * [3.3：TypeScript](Chapter3/TypeScript.md)
+    * [3.4：异步 ](Chapter3/异步.md)
 * [第四章 jQuery](Chapter4/README.md)
     * [4.1：功能特性](Chapter4/功能特性.md)
     * [4.2：设计思路和源码分析](Chapter4/设计思路和源码分析.md)
